@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Автосервис-гараж">
+  <rect width="64" height="64" rx="16" fill="#0F172A"/>
+  <path d="M18 39h28l-4-12H22l-4 12Z" fill="#F97316"/>
+  <path d="M24 27h16l-3-7H27l-3 7Z" fill="#93C5FD"/>
+  <circle cx="24" cy="42" r="5" fill="#E5E7EB"/>
+  <circle cx="40" cy="42" r="5" fill="#E5E7EB"/>
+  <path d="M17 46h30" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+</svg>

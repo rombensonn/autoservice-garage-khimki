@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /admin
+
+Sitemap: https://rombensonn.github.io/autoservice-garage-khimki/sitemap.xml
