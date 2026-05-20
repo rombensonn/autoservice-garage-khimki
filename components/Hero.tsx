@@ -11,6 +11,8 @@ const fadeUp = {
   visible: { opacity: 1, y: 0 },
 };
 
+const assetBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export function Hero() {
   return (
     <section className="hero-surface relative overflow-hidden pt-[calc(var(--header-height)+34px)] text-white md:pt-[calc(var(--header-height)+64px)]">
@@ -78,7 +80,7 @@ export function Hero() {
           <div className="bolt-corners relative mx-auto w-full max-w-[560px] overflow-hidden rounded-[2.2rem] border border-white/20 bg-slate-950/60 p-3 shadow-[0_34px_110px_rgba(0,0,0,0.42)]">
             <div className="relative aspect-[5/6] overflow-hidden rounded-[1.65rem] bg-slate-900 sm:aspect-[6/7] lg:aspect-[5/6]">
               <Image
-                src="/images/hero-garage.png"
+                src={`${assetBasePath}/images/hero-garage.png`}
                 alt="Сгенерированная сцена автосервиса с автомобилем на подъемнике"
                 fill
                 priority
